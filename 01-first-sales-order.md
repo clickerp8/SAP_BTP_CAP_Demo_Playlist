@@ -6,8 +6,6 @@ In this guide, we build a small Sales Orders app from an empty folder. Customers
 
 You can follow it with no SAP or coding background. Every new word gets a one-line explanation.
 
-Prefer to watch? The full video walkthrough is here: [VIDEO LINK]
-
 ## The use case
 
 A small company sells to business customers. Today, its customers live in one Excel file, and its orders live in emails and another sheet. Nothing links an order to its customer, and typos slip in.
