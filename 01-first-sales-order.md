@@ -141,7 +141,6 @@ CAP creates a `db/data` folder with two **CSV files**. A CSV file is a text file
 
 Each file has only the header line. Notice the four extra columns at the end: createdAt, createdBy, modifiedAt and modifiedBy. They come from the `managed` aspect. We fill them too, so the sample data looks like real records. Now add the rows. Copy this into `db/data/sales-Customers.csv`, replacing what's there:
 
-![Customers sample data](images/demo1-sales-Customers.png)
 
 ```csv
 ID,name,email,city,country,createdAt,createdBy,modifiedAt,modifiedBy
@@ -152,7 +151,6 @@ c0000000-0000-4000-8000-000000000003,Starlight Retail,purchase@starlight.example
 
 And this into `db/data/sales-Orders.csv`:
 
-![Orders sample data](images/demo1-sales-Orders.png)
 
 ```csv
 ID,orderNo,orderDate,amount,currency,status,customer_ID,createdAt,createdBy,modifiedAt,modifiedBy
