@@ -80,7 +80,7 @@ using { cuid, managed } from '@sap/cds/common';
 
 // A company that buys from us
 entity Customers : cuid, managed {
-  name    : String(100) @mandatory;
+  name    : String(100);
   email   : String(100);
   city    : String(50);
   country : String(50);
@@ -89,11 +89,11 @@ entity Customers : cuid, managed {
 
 // One order placed by a customer
 entity Orders : cuid, managed {
-  orderNo   : String(20) @mandatory;
+  orderNo   : String(20) ;
   orderDate : Date;
   amount    : Decimal(10,2);
-  currency  : String(3) default 'EUR';
-  status    : String(20) default 'New';
+  currency  : String(3);
+  status    : String(20);
   customer  : Association to Customers;  // the customer who placed the order
 }
 ```
